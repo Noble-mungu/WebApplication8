@@ -37,5 +37,19 @@ font-size:24px;
 }
 .input
 {
-    width:100%;
+    width:50%;
+    height:auto;
+}
+.label 
+{
+    color:blue;
+
+
+}
+.btn
+{
+    width:10%;
+    color:blue;
+    background-color:black;
+
 }
