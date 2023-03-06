@@ -10,9 +10,14 @@
     <asp:Label ID="Label3" runat="server" Text="Email Address"></asp:Label><br />
     <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></br>
     <p>Select your gender:</p>
-    <asp:RadioButton ID="Male" runat="server" />
-    <asp:RadioButton ID="Female" runat="server" /><br />
-    <asp:ListBox ID="ListBox1" runat="server">Country</asp:ListBox>
+    <asp:RadioButton ID="Male" runat="server" />Male<br />
+    <asp:RadioButton ID="Female" runat="server" />Female<br />
+    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+        <asp:ListItem Value="Kenya"></asp:ListItem>
+        <asp:ListItem Value="Rwanda"></asp:ListItem>
+        <asp:ListItem Value="Uganda"></asp:ListItem>
+        <asp:ListItem Value="Tanzania"></asp:ListItem>
+    </asp:DropDownList><br />
     <asp:Label ID="Label5" runat="server" Text="Mobile Number"></asp:Label><br />
     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><br />
     <asp:Label ID="Label6" runat="server" Text="Password"></asp:Label><br />
